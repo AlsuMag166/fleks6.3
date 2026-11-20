@@ -9,4 +9,14 @@
     border: 2px dashed #88f;
     padding: 10px;
 }
-.
+
+.child {
+    background: #6a9cff;
+    color: #fff;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.child:nth-child(1) { width: 60px; }
+.child:nth-child(2) { width: 160px; }
+.child:nth-child(3) { width: 100px; }
